@@ -1,0 +1,149 @@
+/* global class*/
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+  font-family: 'Titillium Web', sans-serif;
+
+}
+#cotainer{
+  width: 90%;
+  float: left;
+}
+
+header{
+  width: 100%;
+  float: left;
+  /* background-image: url(../image/back.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
+  /* background: url(../image/back.png) no-repeat fixed center;
+  background-size: cover; */
+   background-color: #303030; 
+  color: #ffffff;
+}
+
+nav{
+  width: 100%;
+  float: left;
+  padding: 10px 0px;
+  margin-top: 10px;
+  background-position: center;
+  
+}
+.logo-part{
+  width: 40%;
+  float: left;
+ 
+
+}
+
+.menu-part{
+  width: 50%;
+  float: left;
+  padding: 10px 0px;
+  
+}
+.s-bar{
+  width: 10%;
+  float: left;
+
+ 
+}
+
+.menu-part li{
+  display: inline-block;
+  margin: 0px 10px;
+  
+  padding: 7px;
+  border-radius: 5px;
+
+}
+
+.menu-part li:hover{
+  background-color: rgb(144, 126, 126);
+}
+.menu-part a{
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600px;
+  text-transform: uppercase;
+  background-color: #303030;
+
+}
+.hero-part{
+  width: 100%;
+  float: left;
+  background: url(../image/musicboy.png) no-repeat fixed center;
+  background-size: cover;
+  height: 600px;
+}
+.hero-part h1{
+  margin-top: 150px;
+  font-size: 70px;
+  font-weight: 600;
+  width: 70%;
+  padding: 10px;
+}
+.hero-part p{
+  font-size: 30px;
+  text-align: left;
+}
+.hero-part a button{
+  width: 15%;
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #e8631c;
+  transition: ease-in-out 0.5s;
+  
+
+}
+.hero-part a button:hover{
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px #c25a2a;
+}
+/* dance section */
+.dance-writing-part{
+  width: 100%;
+  float: left;
+ background: url(../image/back.png);
+ background-position: center;
+ background-size: cover;
+ background-color: #282828;
+
+}
+.dance-writing-part h1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  color: #fff;
+  margin-top: 25px;
+}
+.dance-writing-part p{
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+.dance-box-part{
+  width: 100%;
+  float: left;
+  padding: 10px 0px;
+  
+}
+.dance-part{
+  width: 33.33%;
+  float: left;
+  
+}
+
+.dance-img{
+   padding: 10px 0px;
+
+}
